@@ -14,7 +14,7 @@ export default class index extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+            Learn
           </a>
         </header>
       </div>
