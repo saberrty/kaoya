@@ -1,5 +1,8 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react'
+import { Row, Col } from 'antd'
+import index1 from './index1.jpeg'
+import index2 from './index2.jpeg'
+import index3 from './index3.jpeg'
 import './App.css';
 
 export default class index extends Component {
@@ -7,7 +10,11 @@ export default class index extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <Row>
+            <img src={index1} className="index-kaoya" alt="" />
+            <img src={index2} className="index-kaoya" alt="" />
+            <img src={index3} className="index-kaoya" alt="" />
+          </Row>
           <a
             className="App-link"
             href="https://reactjs.org"
